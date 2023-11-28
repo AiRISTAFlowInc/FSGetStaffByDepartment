@@ -20,7 +20,7 @@ func TestEval(t *testing.T) {
 
 	act := &Activity{}
 	tc := test.NewActivityContext(act.Metadata())
-	input := &Input{IP: "52.45.17.177:802", CustomerId: "1", Username: "afadmin", Password: "admin", DepartmentItem: "3098"}
+	input := &Input{IP: "3.212.201.170:802", CustomerId: "2047", Username: "afadmin", Password: "admin", DepartmentItem: "Security"}
 	// DepartmentItem options: "Administration " OR "3098"
 	// `{
 	// 	"CustomerId": 123,

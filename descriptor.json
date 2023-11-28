@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "title": "A2: Get Staff By Department",
   "description": "Returns Array of Staff",
-  "homepage": "https://github.com/AiRISTAFlowInc/FlowActivities/tree/main/GetStaffByDepartment",
+  "homepage": "https://github.com/AiRISTAFlowInc/FSGetStaffByDepartment",
   "input": [
     {
       "name": "IP",
