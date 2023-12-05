@@ -71,6 +71,10 @@ func RestCallGetAllByDepartment(IP string, customerId string, username string, p
 				break
 			}
 		}
+		if departmentId == "" {
+			// Department has no staff
+			return nil
+		}
 	}
 
 	// Create an HTTP client
